@@ -4,8 +4,6 @@ kind: CustomResourceDefinition
 metadata:
   creationTimestamp: null
   name: challenges.acme.cert-manager.io
-  annotations:
-    argocd.argoproj.io/sync-options: Validate=false
 spec:
   additionalPrinterColumns:
   - JSONPath: .status.state
